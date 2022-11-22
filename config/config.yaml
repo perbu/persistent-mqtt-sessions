@@ -1,0 +1,9 @@
+producer:
+  broker: "mqtt://localhost:1883/"
+  topic: "test"
+  client_id: "producer"
+
+consumer:
+  broker: "mqtt://localhost:1883/"
+  topic: "test"
+  client_id: "consumer"
